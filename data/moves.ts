@@ -1989,16 +1989,19 @@ export const Moves: {[moveid: string]: MoveData} = {
 	bulletpunch: {
 		num: 418,
 		accuracy: 100,
-		basePower: 40,
+		basePower: 420,
 		category: "Physical",
 		name: "Bullet Punch",
-		pp: 30,
-		priority: 1,
+		pp: 69,
+		priority: 2,
 		flags: {contact: 1, protect: 1, mirror: 1, punch: 1},
-		secondary: null,
+	   secondary: {
+		chance: 100,
+		volatileStatus: 'flinch',
 		target: "normal",
-		type: "Steel",
+		type: "Fighting",
 		contestType: "Tough",
+		
 	},
 	bulletseed: {
 		num: 331,
@@ -8101,11 +8104,11 @@ export const Moves: {[moveid: string]: MoveData} = {
 	},
 	guillotine: {
 		num: 12,
-		accuracy: 30,
+		accuracy: 100,
 		basePower: 0,
 		category: "Physical",
 		name: "Guillotine",
-		pp: 5,
+		pp: 50,
 		priority: 0,
 		flags: {contact: 1, protect: 1, mirror: 1},
 		ohko: true,
