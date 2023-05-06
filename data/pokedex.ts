@@ -1600,7 +1600,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		name: "Machamp",
 		types: ["Fighting"],
 		genderRatio: {M: 0.75, F: 0.25},
-		baseStats: {hp: 90, atk: 130, def: 80, spa: 65, spd: 85, spe: 55},
+		baseStats: {hp: 900, atk: 1300, def: 800, spa: 650, spd: 850, spe: 550},
 		abilities: {0: "Guts", 1: "No Guard", H: "Steadfast"},
 		heightm: 1.6,
 		weightkg: 130,
